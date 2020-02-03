@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="2" parallel="methods">
+
+<test name="Testrun" preserve-order="true" group-by-instances="true">
+
+<!--pass browser as a parameter-->
+<parameter name="browser" value="Chrome" />
+
+<!--  <parameter name="browser" value="Firefox" /> -->
+
+<classes>
+<class name= "Pagetest"/>
+</classes>
+</test>
+</suite>
